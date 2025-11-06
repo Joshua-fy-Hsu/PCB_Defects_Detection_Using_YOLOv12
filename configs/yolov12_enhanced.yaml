@@ -1,0 +1,13 @@
+# Enhanced training config
+model: yolov12s.pt
+data: D:/University/Junior/Deep_Learning/PCB_Defects/dataset/Enhanced/data.yaml
+epochs: 100
+imgsz: 512
+batch: 16
+optimizer: AdamW
+project: runs
+name: enhanced
+device: 0
+workers: 8
+save: True
+plots: True
